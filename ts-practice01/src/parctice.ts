@@ -1,2 +1,5 @@
-const message: string = 'hello ts';
-console.log(message);
+const app = (x: number, y: number): number => {
+  return x + y;
+};
+
+app(1, 2);
